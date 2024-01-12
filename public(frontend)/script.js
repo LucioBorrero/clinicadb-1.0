@@ -1,4 +1,8 @@
+<<<<<<< HEAD
  // Array para almacenar pacientes
+=======
+// Array para almacenar pacientes
+>>>>>>> 9852ed04fa295e4217079158b4efabdd3b217208
 const pacientes = [];
 
 // Función para agregar un paciente
