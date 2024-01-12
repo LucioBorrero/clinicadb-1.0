@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Registro de Paciente</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Pacientes</h1>
+        <!-- Formulario para ingresar pacientes -->
+        <form id="patientForm">
+            <!-- Campos del formulario -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" required>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" required>
+
+            <button type="button" onclick="agregarPaciente()">Agregar Paciente</button>
+        </form>
+
+        <!-- Lista de pacientes registrados -->
+        <ul id="patientList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
